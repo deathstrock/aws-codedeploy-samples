@@ -1,1 +1,2 @@
-aws deploy create-deployment --application-name sample_dev --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name sample_dev_group
+#!/bin/bash
+cp index.html ec2-user@100.103.139.206/
